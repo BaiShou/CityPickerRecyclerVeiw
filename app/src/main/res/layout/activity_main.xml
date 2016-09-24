@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.baisoo.citypicker.MainActivity">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recy_city"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/contact_dialog"
+        android:layout_width="80.0dip"
+        android:layout_height="80.0dip"
+        android:layout_centerInParent="true"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:textColor="#ffffffff"
+        android:textSize="30sp"
+        android:visibility="invisible" />
+
+    <com.baisoo.citypicker.SideBar
+        android:id="@+id/contact_sidebar"
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="3dp" />
+
+</RelativeLayout>

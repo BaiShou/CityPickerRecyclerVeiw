@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CityPicker</string>
+    <string name="located_city">定位城市</string>
+    <string name="hot_city">热门城市</string>
+    <string name="locating">正在定位…</string>
+    <string name="located_failed">定位失败</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="setting">Settings</string>
+    <string name="title_settings_dialog">Permissions Required</string>
+    <string name="rationale_ask_again">This app may not work correctly without the requested permissions. Open the app settings screen to modify app permissions.</string>
+    <string name="returned_from_app_settings_to_activity">Returned from app settings to MainActivity</string>
+</resources>
